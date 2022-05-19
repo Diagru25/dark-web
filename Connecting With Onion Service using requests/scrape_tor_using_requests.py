@@ -27,5 +27,6 @@ print(session.get('http://httpbin.org/ip').text) # prints {"origin": "67.205.146
 
 print(requests.get('http://httpbin.org/ip').text) # prints {"origin": "5.102.254.76" }
 
-print(session.get('http://jaz45aabn5vkemy4jkg4mi4syheisqn2wn2n4fsuitpccdackjwxplad.onion/').text) # Prints the contents of the page
+# Prints the contents of the page
+print(session.get('http://s4k4ceiapwwgcm3mkb6e4diqecpo7kvdnfr5gg7sph7jjppqkvwwqtyd.onion/').text)
 #http://ednf5xiofeunsycu.onion/wiki-onion-urls.html
